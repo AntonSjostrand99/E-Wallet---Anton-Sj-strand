@@ -12,11 +12,7 @@ function AddCard() {
         navigate('/')
 
     }
-
-
     return(
-    
-
     
     <section className="addCard">
          
@@ -31,14 +27,9 @@ function AddCard() {
         <CardForm />
         </footer>
 
-   
-
-
     </section>
 
           
-            
-       
     )
     
     

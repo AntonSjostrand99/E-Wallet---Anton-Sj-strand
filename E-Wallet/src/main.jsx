@@ -12,9 +12,6 @@ import reducer from './reducers/reducers'
    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__() // Används för att få igång våran Redux devtools
  )
 
-
-
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
 

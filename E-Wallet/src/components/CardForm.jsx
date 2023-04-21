@@ -1,21 +1,13 @@
 import './Style.scss'
-
-
-
-
-
  import vendorEvil from '../assets/vendor-evil.svg'
  import vendorNinja from '../assets/vendor-ninja.svg'
  import vendorBitcoin from '../assets/vendor-bitcoin.svg'
  import vendorBlockchain from '../assets/vendor-blockchain.svg'
 
-
-
 import { useState, useId } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux'
 import { addCard } from '../actions/actions'
-
 
 
 
@@ -65,18 +57,11 @@ function CardForm(){
             <article className='form__inputs'>
             <input className='form__input' type="text"  onChange={(event) => { setcardNumber(event.target.value); }}/>
             </article>
-
             <article className='form__inputs'>
-
             <label className='form__label' >kortinnehavare</label> 
             <input className='form__input' type="text" placeholder="FÖRNAMN EFTERNAMN" onChange={(event) => { setcardName(event.target.value); }}/>
             </article>
-         
-    
-
-
             <article className='form__small'>
-              
                <article className='form__smallest'>
                <label className='form__labelSmall' >VALID THRU</label>
                 <input className='form__input' type="text" onChange={(event) => { setvalid(event.target.value); }}/>
@@ -84,12 +69,9 @@ function CardForm(){
                 <article className='form__smallest'>
                   <label className='form__labelSmall' >CVV</label>
                   <input  className='form__input' type="text" onChange={(event) => { setcvv(event.target.value); }} />
-
             </article>
-              
-              
-            </article >
 
+            </article >
             <article className='form__inputs'>
             <label className='form__label' >VENDOR</label>
             <select name="vendors" id="" onChange={ getValue } className='form__input'>

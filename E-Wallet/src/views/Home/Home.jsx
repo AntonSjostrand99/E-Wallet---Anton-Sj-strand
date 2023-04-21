@@ -1,11 +1,9 @@
 import "./Home.scss" 
+
 import { useNavigate } from "react-router-dom";
 import CardStack from "../../components/CardStack";
 import Card from "../../components/Card"
 import { useSelector } from "react-redux"
-
-
-
 
 
 function Home() {

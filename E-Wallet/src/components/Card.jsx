@@ -1,6 +1,5 @@
 import "./Style.scss"
 
-
 import vendorBitcoin from '../assets/vendor-bitcoin.svg'
 import chipLight from '../assets/chip-light.svg'
 import { useDispatch } from 'react-redux'
