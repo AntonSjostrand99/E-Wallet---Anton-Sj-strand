@@ -1,0 +1,104 @@
+
+.home {
+
+    
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(14);
+    width: 414px;
+    height: 896px;
+    margin: auto;
+    background: #FFFFFF;
+
+
+    &__header{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        grid-row: 1 / 2;
+       
+
+    }
+
+    &__header h1 {
+
+        font-family: 'Source Sans Pro';
+       font-style: normal;
+      font-weight: 700;
+      font-size: 35px;
+       line-height: 100%;
+      color: #222222;
+      text-transform: uppercase;
+
+
+    }
+
+    &__text {
+
+        font-size: 12px;
+        grid-row: 2 / 3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0.6rem;
+
+    }
+
+
+    &__showCard {
+
+        grid-row: 4  / 6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 0.6rem;
+
+    }
+
+ 
+
+
+    &__middle{
+
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        grid-row: 8 / 10;
+        margin-bottom: 4rem;
+      
+    }
+
+   
+
+    &__footer{
+        
+     
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-row: 13 / auto;
+       
+    }
+
+    &__footer__btn{
+
+        border: 1px solid #000000;
+        border-radius: 8px;
+         width: 382px;
+         height: 80px;
+          font-family: 'PT Mono';
+             font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+             line-height: 25px;
+             text-align: center;
+           text-transform: uppercase;
+           color: #000000;
+    }
+
+}

@@ -1,0 +1,196 @@
+
+ .card{
+  background-color:rgba(208, 208, 208, 1) ;
+  border-radius: 5px;
+  font-family: 'PT Mono', monospace;
+  box-shadow: 10px grey ;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 180px;
+  width: 375px;
+  margin: -11.3rem;
+  position: relative;
+  z-index: 1; 
+  text-transform: uppercase;
+  
+  
+      &__section{
+          display: flex;
+          flex-direction: column;
+          padding: 0;
+      }
+      &__imgs{
+          display: flex;
+          padding: 0;
+          margin-bottom: 0.8rem;
+      }
+      &__img{
+          margin-left: auto;
+          padding: 0;
+      }
+      &__labels{
+          display: flex;
+          font-size: 0.75rem;
+          padding: 0;
+      }
+      &__inputs{
+          display: flex;
+          font-size: 1.125rem ;
+          padding: 0;
+      }
+      &__title{
+          font-size: 1.125rem ;
+          padding: 0;
+          margin: 0;
+      }
+      &__valid{
+          margin-left: auto;
+          padding: 0;
+          margin-top:0;
+          margin-bottom: 0;
+      }
+      &__number{
+          font-size: 1.2rem;
+          padding: 0;
+          line-height: 32px;
+          letter-spacing: 0.03em;
+          margin: 0;
+          text-align: center;
+          font-family: 'PT Mono';
+          font-style: normal;
+           font-weight: 400;
+           font-size: 26px;
+           line-height: 32px;
+           letter-spacing: 0.03em;
+           
+      }
+      &__validThru{
+          margin-left: auto;
+      }
+      &__delete{
+          background-color: white;
+          border-radius: 50%;
+          border: none;
+          height: 1.2rem;
+      }
+} 
+
+
+
+.card-stack{
+  margin-top: 10rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+ 
+   &__cards{
+       grid-column: auto span 1 ;
+   }
+}
+
+
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+  font-family: 'PT Mono', monospace;
+  justify-content: center;
+  align-items: center;
+
+
+ &__inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+ }
+
+ 
+  &__input{
+    height: 56px;
+      font-size:1.125rem;
+      font-family: 'PT Mono';
+      font-weight: 400;
+      width: 97%;
+      border-radius: 8px;
+      
+  }
+
+
+  &__label{
+      font-family: 'PT Mono';
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 13px;
+      color: rgba(0, 0, 0, 0.8);
+      margin-top: 1rem;
+      text-transform: uppercase;
+      align-self: flex-start;
+      margin-left: 0.4rem;
+
+  }
+
+  &__labelSmall{
+    font-family: 'PT Mono';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 1rem;
+    text-transform: uppercase;
+    margin-left: 0.1rem;
+   
+    
+
+}
+
+
+
+  &__small{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      margin-top: 1rem;
+  }
+
+  &__smallest {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+   
+
+  }
+
+
+  &__button{
+    width: 98%;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 1rem;
+    height: 72px;
+    margin-top: 1rem;
+    font-family: 'PT Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+   text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+
+}
+
+
+
+
+
